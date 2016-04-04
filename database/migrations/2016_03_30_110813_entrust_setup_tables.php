@@ -7,7 +7,7 @@ class EntrustSetupTables extends Migration
     /**
      * Run the migrations.
      * https://github.com/Zizaco/entrust
-     * Review uli later
+     * Reviewhin uli later
      * @return  void
      */
     public function up()

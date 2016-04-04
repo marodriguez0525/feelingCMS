@@ -30,7 +30,7 @@ class AuthController extends Controller
      * Create a new authentication controller instance.
      *
      */
-    public function __construct()
+    public function __construct() 
     {
         $this->middleware('guest', ['except' => 'getLogout']);
     }

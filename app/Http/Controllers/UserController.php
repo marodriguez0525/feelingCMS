@@ -159,12 +159,10 @@ class UserController extends Controller
         }
     }
 
-    /**
+    /*
      * Remove the specified resource from storage.
-     *
-     * @param  int $id
-     * @return Response
      */
+    
     public function destroy($id)
     {
         $title = trans('back.pages.users');
@@ -196,8 +194,8 @@ class UserController extends Controller
             $user->save();
             Toastr::success(trans('messages.success.activated'), trans('back.headers.users'));
         }
-
-        return Response::json(['success' => 'Success']);
+        
+        return Response::json(['success' => 'Success!']);
     }
 
     /**

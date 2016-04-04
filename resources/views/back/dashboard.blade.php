@@ -34,11 +34,11 @@
 						</a>
 					</div>
 				</div>
-
 			</div>
-			@endif
-		</div>
 
+			@endif
+
+		</div>
 	</div>
 
 @stop

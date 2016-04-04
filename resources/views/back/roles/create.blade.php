@@ -59,7 +59,7 @@
                     </div>
                     <div class="col-md-12">
                         <div class="pull-right">
-                            <!--- Action Buttons --->
+                            <!--- Action buttons --->
                             <a href="{{route('roles.index')}}"
                                class="btn btn-default">{{trans('back.actions.cancel')}}</a>
                             {!! Form::submit(trans('back.actions.save'), ['class' => 'btn btn-primary']) !!}

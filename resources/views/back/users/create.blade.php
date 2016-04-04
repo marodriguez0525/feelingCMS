@@ -22,21 +22,21 @@
 								</div>
 							</div>
 							<div class="col-md-9">
-								<!--- FirstName Field --->
+								<!--- First Name Field --->
 								<div class="form-group @if ($errors->has('firstName')) has-error @endif">
 									{!! Form::label('firstName', trans('back.user.firstName')) !!}
 									{!! Form::text('firstName', null, ['class' => 'form-control']) !!}
 								</div>
 							</div>
 							<div class="col-md-9">
-								<!--- LastName Field --->
+								<!--- Last Name Field --->
 								<div class="form-group @if ($errors->has('lastName')) has-error @endif">
 									{!! Form::label('lastName', trans('back.user.lastName')) !!}
 									{!! Form::text('lastName', null, ['class' => 'form-control']) !!}
 								</div>
 							</div>
 							<div class="col-md-6">
-								<!--- Role DropDown List Field --->
+								<!--- Role Drop Down List Field --->
 								<div class="form-group">
 									{!! Form::label('role_id', trans('back.role.role')) !!}
 									{!! Form::select('role_id', $roles, env('DEFAULT_ROLE'), ['class' => 'form-control']) !!}

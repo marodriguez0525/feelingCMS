@@ -38,7 +38,7 @@
 						</div>
 					</div>
 					<div class="col-md-12 spacer">
-						<!-- Nav tabs -->
+						<!-- Navigation tabs -->
 						<ul class="nav nav-tabs" role="tablist">
 							<li role="presentation" class="active"><a href="#permissions"
 							                                          aria-controls="permissions" role="tab"
@@ -47,7 +47,7 @@
 							<li role="presentation"><a href="#users" aria-controls="users" role="tab"
 							                           data-toggle="tab">{{ trans('back.headers.users') }}</a></li>
 						</ul>
-						<!-- Tab panes -->
+						<!-- Tab Panes -->
 						<div class="tab-content">
 							<!-- Tab Permissions -->
 							<div role="tabpanel" class="tab-pane active spacer" id="permissions">

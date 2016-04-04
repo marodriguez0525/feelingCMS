@@ -20,9 +20,8 @@
             $title = "Dashboard";
             //Counts registered users, working na
             $numberUsers = User::all()->count();
-
-
             return view('back.dashboard', compact('title', 'numberUsers'));
+            
         }
 
     }

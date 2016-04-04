@@ -49,7 +49,6 @@
 							<!--- Roles List --->
 							<div class="form-group">
 								<label for="roles">{{ trans('back.lists.roles') }}</label>
-
 								<p class="form-control" disabled>@foreach($user->roles as $role)
 										<span class="label label-primary">{{$role->name}}</span>
 									@endforeach</p>
